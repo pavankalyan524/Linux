@@ -1,0 +1,121 @@
+✅ 1. File & Directory Management Commands (💯 Must-Know)
+Command	Use Case in Real Time
+ls	List files/directories. Useful to verify deployment files, logs, etc.
+mkdir	Create directories (used in Jenkins, Docker, etc.).
+rm	Delete files/directories (careful in production).
+mv	Move/rename files (for deployment purposes).
+cp	Copy files/directories.
+touch	Create an empty file or update a timestamp.
+find	Search files/directories based on patterns.
+locate	Quickly locate files.
+
+✅ 2. File Viewing & Manipulation Commands
+Command	Use Case in Real Time
+cat	View file content (logs, config files, etc.).
+tac	View file content in reverse.
+more/less	View large files page by page (useful in logs).
+head	Show the first 10 lines of a file.
+tail	Show the last 10 lines of a file (useful for logs).
+nano/vi	Edit files directly from the terminal (config files, deployment scripts).
+
+✅ 3. User Management Commands
+Command	Use Case in Real Time
+whoami	Know the current user.
+id	Get user and group ID.
+adduser	Add a new user.
+deluser	Delete a user.
+passwd	Change user password.
+su	Switch user.
+sudo	Execute command as another user (mostly root).
+
+✅ 4. File Permissions & Ownership Commands (💯 Most Asked in Interviews)
+Command	Use Case in Real Time
+chmod	Change file permissions (read, write, execute).
+chown	Change file owner.
+chgrp	Change group ownership of a file.
+umask	Default file permissions.
+ls -l	Check permissions/ownership of files.
+
+✅ 5. Process Management Commands (💯 Real-Time Usage in Servers)
+Command	Use Case in Real Time
+ps -ef	List all running processes (Jenkins, Docker, etc.).
+ps aux	Another format to see processes.
+top	Monitor real-time system resource usage.
+htop	Better real-time monitoring tool (if installed).
+kill	Kill a process using PID.
+kill -9 PID	Force kill a process.
+pkill	Kill processes by name.
+jobs	Show background processes.
+bg	Move a process to the background.
+fg	Move a background process to the foreground.
+
+✅ 6. Disk Space Management Commands (💯 Very Important in Production)
+Command	Use Case in Real Time
+df -h	Show disk space usage.
+du -sh folder_name/	Show folder size.
+lsblk	List information about block devices.
+mount	Mount a filesystem.
+umount	Unmount a filesystem.
+
+✅ 7. Networking Commands (💯 Super Critical for DevOps)
+Command	Use Case in Real Time
+ifconfig/ip a	Show IP address of the machine.
+ping	Check connectivity to a server.
+netstat -tuln	List all listening ports (verify app deployment).
+ss -tuln	Alternative to netstat (faster).
+curl	Test APIs, URLs, endpoints.
+wget	Download files from the internet.
+traceroute	Trace the path to a server.
+nslookup	Get domain IP (DNS lookup).
+dig	Detailed DNS lookup.
+
+✅ 8. Log Management Commands (💯 Highly Used in Production)
+Command	Use Case in Real Time
+journalctl -xe	View system logs (mostly for services).
+tail -f /var/log/messages	View real-time logs.
+tail -f /var/log/syslog	View real-time system logs.
+logrotate	Automatically manage log files.
+
+✅ 9. Package Management Commands (💯 Critical in DevOps)
+Command	Use Case in Real Time
+apt-get/yum/dnf	Install packages (e.g., Docker, Jenkins).
+systemctl	Start/stop services (like Docker, Jenkins).
+service	Manage services.
+rpm	Install/remove RPM packages.
+dpkg	Install/remove DEB packages.
+
+✅ 10. Compression/Decompression Commands
+Command	Use Case in Real Time
+tar -cvf	Compress files.
+tar -xvf	Extract files.
+gzip	Compress files.
+gunzip	Decompress files.
+zip	Create ZIP file.
+unzip	Extract ZIP file.
+
+✅ 11. System Monitoring Commands
+Command	Use Case in Real Time
+uptime	Check system uptime.
+free -m	Check memory usage.
+vmstat	Check CPU, memory, I/O usage.
+iostat	Monitor disk usage.
+sar	Collect system performance metrics.
+
+✅ 12. Text Processing Commands (💯 Important in Real Time)
+Command	Use Case in Real Time
+grep	Search for text in files.
+egrep	Extended grep (supports regex).
+awk	Text processing (extract columns).
+cut	Cut specific parts of a file.
+sed	Stream editor (replace text in files).
+sort	Sort files/text.
+uniq	Remove duplicates.
+tr	Translate or delete characters.
+
+✅ 13. Other Important Commands (Bonus)
+Command	Use Case in Real Time
+history	Show command history.
+clear	Clear terminal screen.
+alias	Create shortcuts for commands.
+nohup	Run commands in background even after logout.
+bg/fg	Send processes to background/foreground.
