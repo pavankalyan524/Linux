@@ -119,3 +119,24 @@ clear	Clear terminal screen.
 alias	Create shortcuts for commands.
 nohup	Run commands in background even after logout.
 bg/fg	Send processes to background/foreground.
+
+rsync	🔥 Sync files/folders between servers (used in backups). 💯🚀
+scp	🚀 Securely copy files from one server to another. 💯
+crontab	✅ Schedule jobs (like running backups, scripts). 💯
+at	⏩ Run jobs once at a specific time. 💯
+nohup	✅ Run processes in background even after logout. 💯
+disown	🔥 Detach a process from the terminal (super useful). 💯
+watch	💻 Monitor command output in real-time (like watch df -h). ✅
+trap	⚠️ Handle signals (like Ctrl+C) in shell scripts. 💯
+uptime	✅ Check how long the server has been running. 💻
+vmstat	💯 Monitor CPU, memory, and IO performance. 🚀
+iostat	✅ Monitor disk usage, IO performance. 💻
+sar	🔥 Collect and display system resource usage. 💯
+hostnamectl	✅ Change/view hostname of the server. 💻
+systemctl	🚀 Start/stop services (like Docker, Jenkins). 💯
+service	✅ Start/stop services (older systems). 💯
+netcat (nc)	💻 Test TCP/UDP connections (super useful in networking). ✅
+telnet	✅ Test port connectivity (like telnet IP PORT). 💯
+route	✅ Show/manipulate IP routing table. 💻
+export	💯 Set environment variables. 🚀
+unset	✅ Remove environment variables. 💯
