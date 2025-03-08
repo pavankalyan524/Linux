@@ -1,5 +1,19 @@
-1. ls command → To list files and directories.
-2. mv command → To move or rename files.
-3. rm command → To delete files and directories.
-4. mkdir command → To create directories.
-5. touch command → To create empty files or update timestamps.
+#	Command	Purpose / Real-time Use Case
+1.	ls command	✅ To list files and directories.
+2.	mv command	✅ To move or rename files and directories.
+3.	rm command	✅ To delete files and directories.
+4.	mkdir command	✅ To create directories (folders).
+5.	touch command	✅ To create empty files or update file timestamps.
+6.	cat command	✅ To view, concatenate, and create files.
+7.	cp command	✅ To copy files and directories.
+8.	find command	✅ To search files and directories based on criteria.
+9.	grep command	✅ To search text patterns within files.
+10.	egrep command	✅ Extended grep with advanced regex support.
+11.	uniq command	✅ To filter out duplicate lines in files.
+12.	head command	✅ To display the first few lines of a file.
+13.	tail command	✅ To display the last few lines of a file.
+14.	wc command	✅ To count lines, words, and characters in a file.
+15.	sort command	✅ To sort file contents in ascending/descending order.
+16.	cut command	✅ To extract specific columns or fields from text.
+17.	tee command	✅ To display output + save to a file simultaneously.
+18.	2>&1 (redirection)	✅ To combine Standard Output + Standard Error into one output.
